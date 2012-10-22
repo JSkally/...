@@ -5,9 +5,9 @@ Livin' JA
 
 Made by:
 ---------
-*Jomo Smith
-*Vijay DaCosta
-*Danhai Williams
-*Jason Scott
+<dd>Jomo Smith
+<dd>Vijay DaCosta
+<dd>Danhai Williams
+<dd>Jason Scott
 
-############################### made for Software Engineering Class UWI 2012.
+<h9> made for Software Engineering Class UWI 2012.
