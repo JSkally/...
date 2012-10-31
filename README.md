@@ -1,7 +1,9 @@
 Livin' JA
 ===========
 
->A simple, easy to use blackberry app to locate various attractions in Jamaica
+Need to change the name to LymeIn-JA
+
+>A simple, easy to use cellphone app to locate various attractions in Jamaica
 
 Made by:
 ---------
