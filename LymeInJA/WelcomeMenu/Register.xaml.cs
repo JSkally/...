@@ -27,7 +27,7 @@ namespace LymeInJA
 
 		private void backButton_Click(object sender, System.Windows.RoutedEventArgs e)
 		{
-			Switcher.Switch(new MainMenu());
+			Switcher.Switch1(new MainMenu());
 		}
 
         private void registerButton_Click(object sender, RoutedEventArgs e)

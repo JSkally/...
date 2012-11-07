@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.Windows.Controls;
+using LymeInJA.Menu1;
 
 namespace LymeInJA
 {
@@ -13,7 +14,7 @@ namespace LymeInJA
         {
             InitializeComponent();
             Switcher.pageSwitcher = this;
-            Switcher.Switch(new MainMenu());            
+            Switcher.Switch1(new MainMenu());            
         }
 
         public void Navigate(UserControl nextPage)
@@ -32,5 +33,7 @@ namespace LymeInJA
                 throw new ArgumentException("NextPage is not ISwitchable! "
                   + nextPage.Name.ToString());
         }
+
+       
     }
 }

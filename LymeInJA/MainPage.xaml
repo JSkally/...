@@ -1,0 +1,4 @@
+﻿<Window x:Class="LymeInJA.MainPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lyme In JA" Height="300" Width="300" Icon="network-2.ico"/>

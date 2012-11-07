@@ -58,12 +58,12 @@ namespace LymeInJA
 
         private void loginTextBlock_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-        	Switcher.Switch(new Login());
+        	Switcher.Switch1(new Login());
         }
 
         private void registerTextBlock_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
-        	Switcher.Switch(new Register());
+        	Switcher.Switch1(new Register());
         }
         #endregion
 		

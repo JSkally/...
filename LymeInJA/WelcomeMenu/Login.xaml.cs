@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using LymeInJA;
 
 namespace LymeInJA
 {
@@ -25,7 +26,7 @@ namespace LymeInJA
 
 		private void backButton_Click(object sender, System.Windows.RoutedEventArgs e)
 		{
-			Switcher.Switch(new MainMenu());
+			Switcher.Switch1(new MainMenu());
 		}
 
         #region ISwitchable Members
@@ -37,9 +38,22 @@ namespace LymeInJA
 
         #endregion
 
+        
+        
         private void loginButton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Login Successful", "Welcome, " + usernameTextBox.Text);
+            
+            MainPage w1 = new MainPage();
+
+            Window parent = Window.GetWindow(this);
+            parent.Close();
+                       
+            w1.Show();
+
+
+            
+        
         }
     }
 }
