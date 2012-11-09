@@ -26,7 +26,12 @@ namespace LymeInJA
 
 		private void backButton_Click(object sender, System.Windows.RoutedEventArgs e)
 		{
-			Switcher.Switch1(new MainMenu());
+            MainPage w1 = new MainPage();
+
+            Window parent = Window.GetWindow(this);
+            parent.Close();
+
+            w1.Show();
 		}
 
         #region ISwitchable Members
@@ -54,6 +59,11 @@ namespace LymeInJA
 
             
         
+        }
+
+        private void registerButton_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch2(new Register());
         }
     }
 }

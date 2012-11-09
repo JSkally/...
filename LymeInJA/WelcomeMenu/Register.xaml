@@ -5,18 +5,18 @@
 	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d"
 	x:Class="LymeInJA.Register"
-	x:Name="UserControl"
-	d:DesignWidth="800" d:DesignHeight="600">
-	<Grid x:Name="LayoutRoot" Background="White">
-		<TextBlock x:Name="usernameTextBlock" HorizontalAlignment="Left" Margin="215.44,160.284,0,0" VerticalAlignment="Top" Width="200" Height="30" Text="Username" TextWrapping="Wrap" FontSize="18.667"/>
-		<TextBlock x:Name="password1TextBlock" HorizontalAlignment="Left" Margin="216.44,200.284,0,0" VerticalAlignment="Top" Width="200" Height="30" FontSize="18.667" Text="Password" TextWrapping="Wrap"/>
-		<TextBox x:Name="usrBox" HorizontalAlignment="Left" Margin="380.44,159.284,0,0" VerticalAlignment="Top" TextWrapping="Wrap" Width="200" Height="30" FontSize="18.667"/>
-		<Button x:Name="registerButton" Margin="333,0,317,230" VerticalAlignment="Bottom" Content="Register" Width="150" Height="30" FontSize="16" Click="registerButton_Click"/>
-		<TextBlock x:Name="password2TextBlock" HorizontalAlignment="Left" Margin="216.44,241.784,0,328.216" Width="200" FontSize="18.667" Text="Re-Type Password" TextWrapping="Wrap"/>
-		<Button x:Name="backButton" Height="25" HorizontalAlignment="Right" Margin="0,0,20,20" VerticalAlignment="Bottom" Width="100" Content="&lt; Back" Click="backButton_Click"/>
-		<PasswordBox x:Name="pwBox" HorizontalAlignment="Left" Margin="381.273,200.284,0,0" VerticalAlignment="Top" Width="200" Height="30" FontSize="18.667"/>
-		<PasswordBox x:Name="pwBox2" HorizontalAlignment="Left" Margin="381.273,242.284,0,0" Width="200" FontSize="18.667" VerticalAlignment="Top" Height="30"/>
-        <TextBlock x:Name="usernameTextBlock_Copy" HorizontalAlignment="Left" Margin="216.273,288.09,0,0" VerticalAlignment="Top" Width="200" Height="30" Text="Email Address" TextWrapping="Wrap" FontSize="18.667"/>
-        <TextBox x:Name="eBox" HorizontalAlignment="Left" Margin="381.273,287.09,0,0" VerticalAlignment="Top" TextWrapping="Wrap" Width="200" Height="30" FontSize="18.667"/>
+	x:Name="UserControl" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="450" Width="625">
+	<Grid x:Name="LayoutRoot" Background="White" Height="450">
+		<TextBlock x:Name="usernameTextBlock" HorizontalAlignment="Center" Margin="131,72,397,348" VerticalAlignment="Center" Width="97" Height="30" Text="Username" TextWrapping="Wrap" FontSize="18.667" TextAlignment="Center"/>
+		<TextBlock x:Name="password1TextBlock" HorizontalAlignment="Center" Margin="136,107,397,315" VerticalAlignment="Center" Width="92" Height="28" FontSize="18.667" Text="Password" TextWrapping="Wrap" TextAlignment="Center"/>
+		<TextBox x:Name="usrBox" HorizontalAlignment="Center" Margin="262,67,134,353" VerticalAlignment="Center" TextWrapping="Wrap" Width="229" Height="30" FontSize="18.667"/>
+		<Button x:Name="registerButton" Margin="262,278,213,142" VerticalAlignment="Center" Content="Register" Width="150" Height="30" FontSize="16" Click="registerButton_Click" HorizontalAlignment="Center"/>
+		<TextBlock x:Name="password2TextBlock" HorizontalAlignment="Center" Margin="102,162,369,262" Width="154" FontSize="18.667" Text="Re-Type Password" TextWrapping="Wrap" VerticalAlignment="Center" Height="26" TextAlignment="Center"/>
+		<Button x:Name="backButton" Height="24" HorizontalAlignment="Center" Margin="515,416,10,10" VerticalAlignment="Center" Width="100" Content="&lt; Back" Click="backButton_Click"/>
+		<PasswordBox x:Name="pwBox" HorizontalAlignment="Center" Margin="262,162,134,260" VerticalAlignment="Center" Width="229" Height="28" FontSize="18.667"/>
+		<PasswordBox x:Name="pwBox2" HorizontalAlignment="Center" Margin="262,107,129,307" Width="234" FontSize="18.667" VerticalAlignment="Center" Height="36"/>
+        <TextBlock x:Name="usernameTextBlock_Copy" HorizontalAlignment="Center" Margin="132,193,373,223" VerticalAlignment="Center" Width="120" Height="34" Text="Email Address" TextWrapping="Wrap" FontSize="18.667" TextAlignment="Center"/>
+        <TextBox x:Name="eBox" HorizontalAlignment="Center" Margin="292,190,105,230" VerticalAlignment="Center" TextWrapping="Wrap" Width="228" Height="30" FontSize="18.667"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="450" VerticalAlignment="Top" Width="625"/>
     </Grid>
 </UserControl>

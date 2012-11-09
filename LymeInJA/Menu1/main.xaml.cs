@@ -23,5 +23,12 @@ namespace LymeInJA.Menu1
         {
             InitializeComponent();
         }
+
+        private void LogBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch2(new Login());
+
+            // until log in stay here
+        }
     }
 }

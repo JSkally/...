@@ -4,9 +4,21 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="350" d:DesignWidth="525" HorizontalAlignment="Center" VerticalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Height="101.942" Margin="39.32,48.058,0,0" TextWrapping="Wrap" Text="loooool" VerticalAlignment="Top" Width="195.146" FontSize="36"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="184"/>
+            <ColumnDefinition Width="233"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="home" HorizontalAlignment="Left" Height="33" Margin="10,22,0,22" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" TextAlignment="Center" Padding="0,7,0,0"><Run Text="Ho"/><Run Text="me"/></TextBlock>
+        <TextBlock x:Name="search" HorizontalAlignment="Left" Height="33" Margin="10,60,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="80" TextAlignment="Center" Padding="0,7,0,0"/>
+        <TextBlock x:Name="map" HorizontalAlignment="Left" Height="33" Margin="10,93,0,0" TextWrapping="Wrap" Text="Map" VerticalAlignment="Top" Width="80" RenderTransformOrigin="0.488,1.44" TextAlignment="Center" Padding="0,7,0,0"/>
+        <TextBlock x:Name="about" HorizontalAlignment="Left" Height="33" Margin="10,126,0,0" TextWrapping="Wrap" Text="About" VerticalAlignment="Top" Width="80" TextAlignment="Center" Padding="0,7,0,0"/>
+        <TextBlock x:Name="LivinJa" Grid.Column="1" HorizontalAlignment="Center" Height="45" Margin="34,22,83,253" TextWrapping="Wrap" Text="LymeIn JA" VerticalAlignment="Center" Width="300" TextAlignment="Center" FontWeight="Bold" FontSize="20" FontFamily="SimHei" LineHeight="14" Grid.ColumnSpan="2"/>
+        <GridSplitter HorizontalAlignment="Left" Height="328" Margin="107,10,0,0" VerticalAlignment="Top" Width="1" ClipToBounds="True" SnapsToDevicePixels="True"/>
+        <Border BorderBrush="Black" BorderThickness="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" Height="350" VerticalAlignment="Top" Width="525"/>
+        <Button x:Name="LogBtn" Content="Log In" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="111,315,0,0" VerticalAlignment="Top" Width="90" Click="LogBtn_Click"/>
 
     </Grid>
 </UserControl>

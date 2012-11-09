@@ -14,7 +14,7 @@ namespace LymeInJA
         {
             InitializeComponent();
             Switcher.pageSwitcher = this;
-            Switcher.Switch1(new MainMenu());            
+            Switcher.Switch1(new Login());            
         }
 
         public void Navigate(UserControl nextPage)
